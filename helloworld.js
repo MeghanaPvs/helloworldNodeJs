@@ -3,7 +3,8 @@ var app=express(); //Calling express function ; where app is an object
 
 let sample={
     name:"Meghana",
-    age:"21"
+    age:"21",
+    msg:"Hello World"
 }
 
 app.get('/',(req,res)=>{
